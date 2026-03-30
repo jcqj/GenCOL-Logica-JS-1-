@@ -17,9 +17,9 @@ const mostrarIguales = document.getElementById("sonIguales")
 
 
 //! Pedimos los numeros mediante PROMPT.
-let num1 = prompt("Ingrese el primer valor")
-let num2 = prompt("Ingrese el segundo valor")
-let num3 = prompt("Ingrese el tercer valor")
+let num1 = Number(prompt("Ingrese el primer valor"))
+let num2 = Number(prompt("Ingrese el segundo valor"))
+let num3 = Number(prompt("Ingrese el tercer valor"))
 
 // let num1 = 9
 // let num2 = 4
