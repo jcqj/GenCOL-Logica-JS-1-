@@ -15,33 +15,22 @@ const mostrarMenor1 = document.querySelector(".numMenor1")
 const mostrarIguales = document.getElementById("sonIguales")
 
 
-let num1
-let num2
-let num3
+// let num1
+// let num2
+// let num3
 //! Pedimos los numeros mediante PROMPT.
-do {
-    alert("Ingrese NUMEROS para avanzar")
-    num1 = Number(prompt("Ingrese el primer valor"))
-    num2 = Number(prompt("Ingrese el segundo valor"))
-    num3 = Number(prompt("Ingrese el tercer valor"))
-} while (Number.isInteger(num1) == false || Number.isInteger(num2) == false || Number.isInteger(num3) == false);
+// do {
+//     alert("Ingrese NUMEROS para avanzar")
+//     num1 = Number(prompt("Ingrese el primer valor"))
+//     num2 = Number(prompt("Ingrese el segundo valor"))
+//     num3 = Number(prompt("Ingrese el tercer valor"))
+// } while (Number.isInteger(num1) == false || Number.isInteger(num2) == false || Number.isInteger(num3) == false);
 
-console.log(Number.isInteger(num1) && Number.isInteger(num2) && Number.isInteger(num3))
+// console.log(Number.isInteger(num1) && Number.isInteger(num2) && Number.isInteger(num3))
 
-// let num1 = Number(prompt("Ingrese el primer valor"))
-// let num2 = Number(prompt("Ingrese el segundo valor"))
-// let num3 = Number(prompt("Ingrese el tercer valor"))
-
-// let num1 = 9
-// let num2 = 4
-// let num3 = 9
-
-// let num11 = "34"
-// console.log(typeof (num11));
-
-// if (Number.isInteger(num11)) {
-//     console.log("no es un numero");
-// }
+let num1 = 9
+let num2 = 4
+let num3 = 9
 
 mostrarUno.textContent = num1
 mostrarDos.textContent = num2
