@@ -13,24 +13,25 @@ const mostrarCentro1 = document.querySelector(".numCentro1")
 const mostrarMenor1 = document.querySelector(".numMenor1")
 
 const mostrarIguales = document.getElementById("sonIguales")
+const mostrarIguales1 = document.getElementById("son-iguales")
 
 
-// let num1
-// let num2
-// let num3
+let num1
+let num2
+let num3
 //! Pedimos los numeros mediante PROMPT.
-// do {
-//     alert("Ingrese NUMEROS para avanzar")
-//     num1 = Number(prompt("Ingrese el primer valor"))
-//     num2 = Number(prompt("Ingrese el segundo valor"))
-//     num3 = Number(prompt("Ingrese el tercer valor"))
-// } while (Number.isInteger(num1) == false || Number.isInteger(num2) == false || Number.isInteger(num3) == false);
+do {
+    alert("Ingrese NUMEROS para avanzar")
+    num1 = Number(prompt("Ingrese el primer valor"))
+    num2 = Number(prompt("Ingrese el segundo valor"))
+    num3 = Number(prompt("Ingrese el tercer valor"))
+} while (Number.isInteger(num1) == false || Number.isInteger(num2) == false || Number.isInteger(num3) == false);
 
 // console.log(Number.isInteger(num1) && Number.isInteger(num2) && Number.isInteger(num3))
 
-let num1 = 9
-let num2 = 4
-let num3 = 9
+// let num1 = 3
+// let num2 = 3
+// let num3 = 3
 
 mostrarUno.textContent = num1
 mostrarDos.textContent = num2
@@ -39,8 +40,8 @@ mostrarTres.textContent = num3
 
 if (num1 == num2 && num1 == num3) {
     console.log(`Los numeros son iguales`);
+    mostrarIguales1.style.opacity = 1;
     mostrarIguales.textContent = "Los numeros son iguales"
-    mostrarIguales.style.color = "green"
     mostrarMayor.textContent = num1
     mostrarCentro.textContent = num2
     mostrarMenor.textContent = num3

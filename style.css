@@ -89,6 +89,7 @@ h1 {
 }
 
 #son-iguales {
+    opacity: 0;
     color: whitesmoke;
     background-color: #8352D1;
     margin: 2% 0%;
